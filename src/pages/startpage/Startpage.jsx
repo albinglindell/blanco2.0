@@ -21,7 +21,7 @@ function Startpage() {
           </Link>
         </ul>
       </nav>
-      <video className="video" autoPlay={true} muted src={loop} loop></video>
+      <video className="video" autoPlay muted src={loop} typeof="video/mp4" loop></video>
     </div>
   );
 }
