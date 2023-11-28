@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './index.scss';
+import { Route, Routes } from 'react-router-dom';
+import Startpage from './pages/startpage/Startpage';
+import FlimmerLogo from "./components/flimmerLogo/FlimmerLogo";
+import AboutUs from './pages/aboutUs/AboutUs';
+import Faq from './pages/faq/Faq';
+import Artists from './pages/artists/Artists';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FlimmerLogo />
+      <Routes>
+          <Route  path='/' element={< Startpage/>}/>
+          <Route  path='/artists' element={<Artists />}/>
+          <Route  path='/about' element={<AboutUs />}/>
+          <Route  path='/faq' element={<Faq />}/>
+      </Routes>
     </div>
   );
 }

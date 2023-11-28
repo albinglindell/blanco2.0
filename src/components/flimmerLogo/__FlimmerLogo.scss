@@ -1,0 +1,11 @@
+.flimmerContainer{
+   
+    .videoFlimmer{
+        position: absolute;
+        z-index: 1;
+        width: 130px;
+        right: 40px;
+        bottom: 40px;
+        mix-blend-mode: screen;
+    }
+}

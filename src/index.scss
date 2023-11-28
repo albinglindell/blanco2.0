@@ -1,0 +1,17 @@
+@import "./pages/startpage/__Startpage";
+@import "./components/flimmerLogo/__FlimmerLogo";
+@import "./components/SvgAnimation/ScgAnimation.scss";
+@import "./pages/aboutUs/AboutUs.scss";
+@import "./pages/faq/Faq.scss";
+@import "./pages/artists/Artists.scss";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;   
+}
