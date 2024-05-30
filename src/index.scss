@@ -1,7 +1,10 @@
 @import "./pages/startpage/__Startpage";
 @import "./components/flimmerLogo/__FlimmerLogo";
-@import "./components/SvgAnimation/ScgAnimation.scss";
+@import "./components/SvgAnimation/__SvgAnimation.scss";
+@import "./components/artistsNavigation/_ArtistNavigation";
+@import "./components/header/_Header";
 @import "./pages/aboutUs/AboutUs.scss";
+@import "./pages/profilePage/_ProfilePage";
 @import "./pages/faq/Faq.scss";
 @import "./pages/artists/Artists.scss";
 

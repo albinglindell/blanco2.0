@@ -5,9 +5,10 @@ function AboutUs() {
 
   return (
     <div className='aboutContainer'>
+      <div className="darkOverlay"></div>
         <h1 className='aboutHeading'>About Studioblanco</h1>
 
-        <p>Located in the heart of Stockholm, our tattoo studio is a haven for artistry and self-expression. Our skilled team of professional tattoo artists combines a passion for ink with a dedication to creating meaningful and unique designs. As you step into our studio, you'll be greeted by a modern and inviting atmosphere, designed to put you at ease and inspire your creativity.<br/><br/>
+        <p className='aboutInfo'>Located in the heart of Stockholm, our tattoo studio is a haven for artistry and self-expression. Our skilled team of professional tattoo artists combines a passion for ink with a dedication to creating meaningful and unique designs. As you step into our studio, you'll be greeted by a modern and inviting atmosphere, designed to put you at ease and inspire your creativity.<br/><br/>
 
         Our artists specialize in a wide range of tattoo styles, from intricate black and gray realism to vibrant watercolor masterpieces. Whether you're seeking a small and delicate design or a full sleeve that tells a story, our team is here to bring your vision to life. We take pride in our commitment to hygiene and safety, using only top-notch sterilization techniques and high-quality inks to ensure your comfort and well-being.<br/><br/>
 

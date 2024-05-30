@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+   
+    .text-logo{
+        width: 80%;
+    }
+    .link:-webkit-any-link{
+        display: flex;
+        justify-content: center;
+        height: 150px;
+    }
+}

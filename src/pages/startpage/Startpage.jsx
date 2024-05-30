@@ -1,27 +1,21 @@
 import React from "react";
 import loop from "../../assets/videos/loop.mp4";
 import SvgAnimation from "../../components/SvgAnimation/SvgAnimation";
-import { Link } from "react-router-dom";
+import Header from "../../components/header/Header";
+import ArtistNavigation from "../../components/artistsNavigation/ArtistNavigation";
+import AboutUs from "../aboutUs/AboutUs";
 // import FlimmerLogo from '../../components/flimmerLogo/FlimmerLogo'
 function Startpage() {
   return (
+    <div>
     <div className="videoContainer">
       <SvgAnimation />
+      <Header />
       <div className="filterOverlay"></div>
-      <nav className="navigation">
-        <ul>
-        <Link className="navLink" to={"/artists"}>
-            Artists
-          </Link>
-          <Link className="navLink" to={"/about"}>
-            Contact
-          </Link>
-          <Link className="navLink" to={"/faq"}>
-            FAQ
-          </Link>
-        </ul>
-      </nav>
       <video className="video" autoPlay muted src={loop} typeof="video/mp4" loop></video>
+    </div>
+    <ArtistNavigation />
+    <AboutUs />
     </div>
   );
 }

@@ -1,11 +1,13 @@
-import Andy from "../assets/images/Andy.jpg";
-import Adrian from "../assets/images/Adrian.jpg";
-import Joel from "../assets/images/Joel.jpg";
-import McLovin from "../assets/images/McLovin.jpg";
+import Andy from "../assets/images/Andy.webp";
+import Adrian from "../assets/images/Adrian.webp";
+import Joel from "../assets/images/Joel.webp";
+import McLovin from "../assets/images/Thomas.webp";
+
 import AndySM from "../assets/images/Andy-sm.jpg";
 import AdrianSM from "../assets/images/Adrian-sm.jpg";
 import JoelSM from "../assets/images/Joel-sm.jpg";
 import McLovinSM from "../assets/images/McLovin-sm.jpg";
+
 import AndyMD from "../assets/images/Andy_md.jpg";
 import AdrianMD from "../assets/images/Adrian_md.jpg";
 import JoelMD from "../assets/images/Joel_md.jpg";
@@ -14,7 +16,8 @@ import McLovinMD from "../assets/images/McLovin_md.jpg";
 
  const artists = [
     {
-        "name":"Joel",
+        "name":"JOEL STENLUND",
+        "id": 0,
         "image": Joel,
         "image_sm":JoelSM,
         "image_md":JoelMD,
@@ -29,7 +32,8 @@ import McLovinMD from "../assets/images/McLovin_md.jpg";
        "Andra stora intressen utöver skapandet är fiske och hip-hop vilket han har låtit tatuera in på armen med texten T.F.H (Tattoo, Fiske, Hip-hop)"]
     },
     {
-        "name":"Adrian Lindell",
+        "name":"ADRIAN LINDELL",
+        "id": 1,
         "image": Adrian,
         "image_sm":AdrianSM,
         "image_md":AdrianMD,
@@ -42,20 +46,24 @@ import McLovinMD from "../assets/images/McLovin_md.jpg";
        "Adrian jobbar med realistiska tatueringar, främst i black and grey men även färg. Erbjuds möjligheten kombinerar han gärna motiven med abstrakta och surrealistiska inslag för att skapa en mystisk känsla i designen. På jakt efter inspiration och med en hunger att utveckla sitt tatuerande har det blivit mycket resor runt om i världen vilket minst sagt gett resultat."]
     },
     {
-        "name":"Andy Blanco",
+        "name":"ANDY BLANCO",
+        "id": 2,
         "image": Andy,
         "image_sm":AndySM,
         "image_md":AndyMD,
         "email":"andy@studioblancotattoo.com",
         "instagram": "andyblancotattoo",
-        "about":["Andy Blanco, grundare av Studio Blanco Tattoo, är född och uppvuxen på Södermalm i samma område där studion ligger idag. Att skapa och vara kreativ har alltid varit en naturlig del av livet. På 50- och 60-talet tatuerade hans pappa sina kompisar från slummen i Caracas (Venezuela) och idag är han aktiv som konstnär vilket färgat av sig på resten av familjen.",
+        "questions":["Hur skulle du beskriva din tatueringsstil?", " Vad inspirerar dig?" ,"Vad är din bakgrund som tatuerare? "],
+       
+        "answers":["”Jag har specialiserat mig på tatueringar i gråskala! Jag strävar efter ett tidlöst uttryck med en bra balans mellan detaljrikedom och tydliga kompositioner. Både större och mindre projekt är kul!”",
 
-      "För Blanco var det i tonåren som drömmen om att tatuera växte sig stark. De första jobben gjordes med en hemmagjord maskin på kompisar, och strax därefter var det dags att sätta igång på riktigt. Han är specialiserad på motiv i Black and Gray och lägger fokus på ta fram detaljerna på ett galant och unikt sätt.",
+      "”Främst inspireras jag av att lyssna på kundens tankar och idéer som utgångspunkt. Eftersom varje samarbete blir unikt, strävar jag efter att skapa en design som speglar just detta. Av erfarenhet blir det oftast som bäst när det finns öppenhet och tillit till att våga skapa något eget.  Utöver min passion för tatueringskonsten hämtar jag inspiration från en mängd olika källor, inklusive klassisk och modern konst, musik, film, litteratur och naturen.”",
         
-       "Under sina år har det blivit mycket resande ut i världen för att tatuera olika kända fotbollsspelare och andra profiler!"]
+       "” Jag började tatuera 2009 och sedan dess har det alltid varit mitt största intresse. Genom tatuerandet har jag fått möjlighet att resa runt i världen, träffa många olika människor och få ägna mig åt något jag verkligen älskar, vilket jag är tacksam för. År 2016 öppnade jag Studio Blanco Tattoo”"]
     },
     {
-        "name":"Thomas",
+        "name":"THOMAS BLOMQVIST",
+        "id": 3,
         "image": McLovin,
         "image_sm":McLovinSM,
         "image_md":McLovinMD,
