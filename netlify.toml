@@ -2,3 +2,7 @@
   from = "/*"
   to = "/"
   status = 200
+
+  [build]
+  command = "EXTEND_ESLINT=false npm run build"
+  publish = "build"
