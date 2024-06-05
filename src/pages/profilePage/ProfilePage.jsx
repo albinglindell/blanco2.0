@@ -15,7 +15,7 @@ function ProfilePage() {
         </div>
         <div className="infoContainer">
             <h1>{artist.name}</h1>
-            <a href={`https://www.instagram.com/${artist.instagram}`}><FaInstagram className='icon'/> {artist.instagram.toUpperCase()}</a>
+            <a target='_blank' rel="noreferrer" href={`https://www.instagram.com/${artist.instagram}`}><FaInstagram className='icon'/> {artist.instagram.toUpperCase()}</a>
                 <div className="interviewContainer">
                 {artist.questions.map((question, i) =>{
                    return (

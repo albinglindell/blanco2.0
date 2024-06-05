@@ -5,27 +5,25 @@ console.log(artists)
 function ArtistNavigation() {
     const [hoveredArtistId, setHoveredArtistId] = useState(null);
 
-  return (
-    <div className='artistsContainer'>
-        {
-            artists.map((a, i) => {
-                return (
-                    <Link className='link' to={`/${a.name}#contentSection`}>
-                    <div className="singleArtistContainer" 
-                         onMouseOver={() => setHoveredArtistId(i)}
-                         onMouseOut={() => setHoveredArtistId(null)}>
+    return (
+        <div className='artistsContainer'>
+            {artists.map((a, i) => (
+                <Link key={i} className='link' to={`/${a.name}#contentSection`}>
+                    <div
+                        className="singleArtistContainer"
+                        onMouseOver={() => setHoveredArtistId(i)}
+                        onMouseOut={() => setHoveredArtistId(null)}
+                    >
                         <h2>{a.name}</h2>
-                        {hoveredArtistId === a.id && <div className="imageAndOverlay">
-                            <img className={`artist-${a.id} hover-image`} src={a.image} alt='overlay'/>
+                        <div className={`imageAndOverlay ${hoveredArtistId === i ? 'visible' : ''}`}>
+                            <img className={`artist-${a.id} hover-image`} src={a.square} alt={`${a.name} overlay`} />
                             <div className='darkOverlay'></div>
-                            </div> } 
+                        </div>
                     </div>
-                    </Link>
-                );
-            })
-        }
-    </div>
-  )
+                </Link>
+            ))}
+        </div>
+    );
 }
 
 export default ArtistNavigation
