@@ -1,5 +1,5 @@
 module.exports = {
-    parser: 'babel-eslint', // Use babel-eslint to parse modern JavaScript
+    parser: 'babel-eslint',
     env: {
       browser: true,
       es6: true,
@@ -17,7 +17,7 @@ module.exports = {
     },
     plugins: [
       'react',
-      'import', // Add the import plugin
+      'import',
     ],
     rules: {
       'jsx-a11y/alt-text': 'off',
