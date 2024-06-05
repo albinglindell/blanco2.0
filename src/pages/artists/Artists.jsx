@@ -10,7 +10,7 @@ function Artists() {
         {artists.map(artist => { 
           return(
               <Link className='link' to={`/${artist.name}#contentSection`}>
-                <img className='artistImg' src={`${artist.image_sm}`}alt="" />
+                <img className='artistImg' src={`${artist.image_sm}`}alt="artist image" />
                 <h2>{`${artist.name}`}</h2>
               </Link>
           )
