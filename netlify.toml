@@ -3,6 +3,7 @@
   to = "/"
   status = 200
 
-  [build]
-  command = "EXTEND_ESLINT=false npm run build"
+ [build]
+  command = "CI= npm run build"
   publish = "build"
+
