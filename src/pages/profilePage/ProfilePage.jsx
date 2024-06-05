@@ -11,7 +11,7 @@ function ProfilePage() {
         <Header />
     <div className='profileContainer'>
         <div className="imageComponent"> 
-        <img className='artistImg' src={`${artist.image}`} alt="artist image" />
+        <img className='artistImg' src={`${artist.image}`} alt="artist" />
         </div>
         <div className="infoContainer">
             <h1>{artist.name}</h1>

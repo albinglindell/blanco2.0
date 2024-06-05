@@ -15,7 +15,10 @@ function ArtistNavigation() {
                          onMouseOver={() => setHoveredArtistId(i)}
                          onMouseOut={() => setHoveredArtistId(null)}>
                         <h2>{a.name}</h2>
-                        {hoveredArtistId === a.id && <div className="imageAndOverlay"><img className={`artist-${a.id} hover-image`} src={a.image}></img><div className='darkOverlay'></div></div> }
+                        {hoveredArtistId === a.id && <div className="imageAndOverlay">
+                            <img className={`artist-${a.id} hover-image`} src={a.image} alt='overlay'/>
+                            <div className='darkOverlay'></div>
+                            </div> } 
                     </div>
                     </Link>
                 );
