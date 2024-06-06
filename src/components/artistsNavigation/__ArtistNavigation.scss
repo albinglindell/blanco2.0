@@ -8,18 +8,17 @@
     .singleArtistContainer {
       position: relative;
       display: flex;
-      width: 350px;
+      width: 20vw;
       aspect-ratio: 1;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       overflow: hidden;
       transition: transform 0.6s cubic-bezier(0, 0.75, 0.25, 1);
-      padding: 0; 
       color: black; 
   
       h2 {
-        font-size: 30px;
+        font-size:1.5vw;
         font-weight: bold;
         font-family: sans-serif;
         margin: 10px 0;
@@ -28,7 +27,7 @@
   
       .imageAndOverlay {
         position: absolute;
-        width: 100%;
+        width: 20vw;
         aspect-ratio: 1;
         display: flex;
         // bottom: -220px;
@@ -68,5 +67,6 @@
   
   .link:-webkit-any-link {
     color: black;
+    
   }
   

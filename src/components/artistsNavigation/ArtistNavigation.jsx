@@ -8,10 +8,10 @@ function ArtistNavigation() {
     return (
         <div className='artistsContainer'>
             {artists.map((a, i) => (
-                <Link key={i} className='link' to={`/${a.name}#contentSection`}>
+                <Link onFocusCapture={()=> setHoveredArtistId(i)} key={i} className='link' to={`/${a.name}#contentSection`}>
                     <div
                         className="singleArtistContainer"
-                        onMouseOver={() => setHoveredArtistId(i)}
+                        onMouseOver={() => setHoveredArtistId(i)} 
                         onMouseOut={() => setHoveredArtistId(null)}
                     >
                         <h2>{a.name}</h2>
