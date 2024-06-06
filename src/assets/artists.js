@@ -2,6 +2,7 @@ import Andy from "../assets/images/Andy.webp";
 import Adrian from "../assets/images/Adrian.webp";
 import Joel from "../assets/images/Joel.webp";
 import McLovin from "../assets/images/Thomas.webp";
+import Amina from "../assets/images/Amina.jpg";
 
 import AndySM from "../assets/images/Andy-sm.jpg";
 import AdrianSM from "../assets/images/Adrian-sm.jpg";
@@ -17,6 +18,7 @@ import adrianSquare from "../assets/images/squares/adrian.jpg"
 import andySquare from "../assets/images/squares/andy.jpg"
 import joelSquare from "../assets/images/squares/joel.jpg"
 import thomasSquare from "../assets/images/squares/thomas.jpg"
+import aminaSquare from "../assets/images/squares/amina.jpg"
 
 
  const artists = [
@@ -93,10 +95,10 @@ import thomasSquare from "../assets/images/squares/thomas.jpg"
     {
         "name":"AMINA SELLING",
         "id": 4,
-        "image": null,
-        "square": null,
-        "image_sm":null,
-        "image_md":null,
+        "image": Amina,
+        "square": aminaSquare,
+        "image_sm":Amina,
+        "image_md":Amina,
         "email":"amina@studioblancotattoo.com",
         "instagram": "aminaselling",
         "questions":["Hur skulle du beskriva din tatueringsstil?", " Vad inspirerar dig?" ,"Vad är din bakgrund som tatuerare? "],
