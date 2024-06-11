@@ -8,7 +8,7 @@
     height: 100svh;
     background: url("../../assets/images/aboutUsBg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-position-y: -500px;
     background-repeat: no-repeat;
     color: white;
@@ -30,4 +30,7 @@
         height: 100svh;
         background-color: rgba(0, 0, 0, 0.5);
     }
+}
+.mobile{
+    position: relative;
 }

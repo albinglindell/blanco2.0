@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className='header'>
         <Link  className='link' to={"/"}>
-        <img src={logo} alt='logo' className='text-logo' />
+        <img lazy src={logo} alt='logo' className='text-logo' />
         </Link>
     </header>
   )

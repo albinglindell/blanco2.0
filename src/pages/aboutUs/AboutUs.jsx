@@ -2,9 +2,11 @@ import React from 'react'
 
 
 function AboutUs() {
+  const isMobile = window.innerWidth <= 768
+
 
   return (
-    <div className='aboutContainer'>
+    <div className={`${isMobile ? 'mobile' : 'aboutContainer'}`}>
       <div className="darkOverlay"></div>
         <h1 className='aboutHeading'>About Studioblanco</h1>
 
