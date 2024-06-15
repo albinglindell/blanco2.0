@@ -22,9 +22,16 @@
         z-index: 0;
     }
 
+    .mobileFilterOverlay{
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        background: rgba(0, 0, 0, 0.285);
+    }
     .mobileLoop{
             width: 100vw; /* Full width */
-            height: 85vh; /* Full height */
+            height: 70svh; /* Full height */
             background-image: url('../../assets/videos/mobileLoop.gif');
             background-size: cover; /* Scale the background image to cover the entire container */
             background-repeat: no-repeat; /* Prevent the image from repeating */

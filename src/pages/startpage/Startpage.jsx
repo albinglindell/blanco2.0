@@ -14,7 +14,7 @@ function Startpage() {
     <div className="videoContainer">
       <SvgAnimation />
       <Header />
-      <div className="filterOverlay"></div>
+      <div className={`${isMobile ? 'mobileFilterOverlay': "filterOverlay"}`}></div>
      {!isMobile && <video className="video" autoPlay muted src={loop} typeof="video/mp4" loop></video>}
      {isMobile && <div className="mobileLoop"></div>}
     </div>
