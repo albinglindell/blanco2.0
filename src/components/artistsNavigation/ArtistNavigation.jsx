@@ -9,7 +9,7 @@ function ArtistNavigation() {
           
 
     return (
-        <div className={` ${isMobile ?'mobile' : 'artistsContainer'} `}>
+        <div className={` ${isMobile ?'mobileArtistPage' : 'artistsContainer'} `}>
             {artists.map((a, i) => (
                 <Link onFocusCapture={()=> setHoveredArtistId(i)} key={i} className='link' to={`/${a.name}#contentSection`}>
                     <div

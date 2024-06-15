@@ -22,6 +22,17 @@
         z-index: 0;
     }
 
+    .mobileLoop{
+            width: 100vw; /* Full width */
+            height: 85vh; /* Full height */
+            background-image: url('../../assets/videos/mobileLoop.gif');
+            background-size: cover; /* Scale the background image to cover the entire container */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center; /* Center the image */
+        
+        
+    }
+
     .navigation {
         z-index: 2;
         position: absolute;
@@ -49,9 +60,6 @@
             }
         }
     }
-}
-section{
-    height: 100svh;
 }
 }
 
