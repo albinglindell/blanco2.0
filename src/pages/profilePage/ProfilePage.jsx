@@ -23,7 +23,11 @@ const useIsMobile = () => {
   return isMobile;
 };
 
+
 function ProfilePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const isMobile = useIsMobile()
     const {name} = useParams()
   useEffect(()=>{
