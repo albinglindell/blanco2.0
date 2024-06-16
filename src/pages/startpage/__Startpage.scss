@@ -15,13 +15,18 @@ gap: 20px;
         height: 85%;
         background: rgba(0, 0, 0, 0.285);
     }
-
-    .video {
-        width: 100%;
-        height: 85%;
-        object-fit: cover;
-        object-position: center;
-        z-index: 0;
+    .videoLoopContainer{
+        position: relative;
+        width: 100vw;
+        height: 75svh;
+            .video {
+                position: relative;
+                object-fit: contain;
+                object-position: center;
+                z-index: 0;
+                width: 100vw;
+                height: 100%;
+            }
     }
 
     .mobileFilterOverlay{
@@ -31,16 +36,16 @@ gap: 20px;
         height: 70%;
         background: rgba(0, 0, 0, 0.285);
     }
-    .mobileLoop{
-            width: 100vw; /* Full width */
-            height: 70svh; /* Full height */
-            background-image: url('../../assets/videos/mobileLoop.gif');
-            background-size: cover; /* Scale the background image to cover the entire container */
-            background-repeat: no-repeat; /* Prevent the image from repeating */
-            background-position: center; /* Center the image */
+    // .mobileLoop{
+    //         width: 100vw; /* Full width */
+    //         height: 70svh; /* Full height */
+    //         background-image: url('../../assets/videos/mobileLoop.gif');
+    //         background-size: cover; /* Scale the background image to cover the entire container */
+    //         background-repeat: no-repeat; /* Prevent the image from repeating */
+    //         background-position: center; /* Center the image */
         
         
-    }
+    // }
 
     .navigation {
         z-index: 2;
