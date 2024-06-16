@@ -36,7 +36,7 @@ function ProfilePage() {
         <Header />
     <div className={`${isMobile?'MobileProfileContainer':'profileContainer'}`}>
         <div className="imageComponent"> 
-        <img lazy className='artistImg' src={`${artist.image}`} alt="artist" />
+        <img lazy className='artistImg' width={350} height={524.65} src={`${artist.image}`} alt="artist" />
         </div>
         <div className="infoContainer">
             <h1>{artist.name}</h1>
