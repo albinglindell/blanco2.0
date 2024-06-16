@@ -18,12 +18,8 @@ function Startpage() {
      {!isMobile && <video className="video" autoPlay muted src={loop} typeof="video/mp4" loop></video>}
      {isMobile && <div className="mobileLoop"></div>}
     </div>
-    <section>
     <ArtistNavigation />
-    </section>
-    <section>
     <AboutUs />
-    </section>
     </div>
   );
 }

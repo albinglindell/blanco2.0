@@ -1,5 +1,7 @@
 .startPageContainer{
-
+display: flex;
+flex-direction: column;
+gap: 20px;
 .videoContainer {
     position: relative;
     width: 100%;

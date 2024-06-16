@@ -3,13 +3,16 @@ import artists from '../../assets/artists';
 import { FaInstagram } from "react-icons/fa";
 import Header from '../../components/header/Header';
 // import EmailForm from './EmailForm';
+
+const isMobile = window.innerWidth <= 768
+
 function ProfilePage() {
     const {name} = useParams()
     const artist = artists.find( (artistName) => artistName.name === name );
   return (
     <div>
         <Header />
-    <div className='profileContainer'>
+    <div className={`${isMobile?'MobileProfileContainer':'profileContainer'}`}>
         <div className="imageComponent"> 
         <img lazy className='artistImg' src={`${artist.image}`} alt="artist" />
         </div>
@@ -20,8 +23,8 @@ function ProfilePage() {
                 {artist.questions.map((question, i) =>{
                    return (
                     <div>
-                        <h2>{question}</h2>
-                       <p>{artist.answers[i]}</p>
+                        <h2 className='question'>{question}</h2>
+                       <p className='answer'>{artist.answers[i]}</p>
                     </div>
                    )
                 })}

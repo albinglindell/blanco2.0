@@ -32,3 +32,56 @@
         }
     }
 }
+
+.MobileProfileContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .imageComponent{
+        img{
+            max-width: 350px;
+        }
+    }
+    .infoContainer{
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: rgb(54, 54, 54);
+
+        .interviewContainer{
+            .question{
+                font-weight: 400;
+                font-style: italic;
+                font-size: 16px;
+
+            }
+            .answer{
+                font-size: 14px;
+            }
+        }
+        a{
+            color: black;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            text-decoration: none;
+            font-weight:600;
+            margin: 8px 0;
+            .icon{
+                margin-right: 5px;
+                font-size: 25px;
+                padding-bottom: 2px;
+            }
+        }
+        p{
+            font-size: 20px;
+            margin: 8px 0;
+        }
+    }
+}
