@@ -5,6 +5,7 @@ import Startpage from './pages/startpage/Startpage';
 import Faq from './pages/faq/Faq';
 import Artists from './pages/artists/Artists';
 import ProfilePage from './pages/profilePage/ProfilePage';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route  path='/faq' element={<Faq />}/>
           <Route  path='/:name' element={<ProfilePage />}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

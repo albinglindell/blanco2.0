@@ -1,0 +1,19 @@
+.footerComponent{
+    height: 50svh;
+    position: relative;
+    background-color: black;
+.videoFlimmerLoop{
+    position: relative;
+    width: 150px;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: contain;
+    float: right;
+    #flimmerBlancoLogo {
+        position: absolute;
+        width: 100% !important;
+        aspect-ratio: 1;
+    }
+
+}
+}
