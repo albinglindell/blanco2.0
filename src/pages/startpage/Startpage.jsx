@@ -5,6 +5,7 @@ import Header from "../../components/header/Header";
 import ArtistNavigation from "../../components/artistsNavigation/ArtistNavigation";
 import AboutUs from "../aboutUs/AboutUs";
 import VideoPlayer from "react-background-video-player";
+import Faq from "../faq/Faq";
 
 // import FlimmerLogo from '../../components/flimmerLogo/FlimmerLogo'
 
@@ -30,6 +31,7 @@ function Startpage() {
     </div>
     <ArtistNavigation />
     <AboutUs />
+    <Faq />
     </div>
   );
 }

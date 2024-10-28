@@ -3,8 +3,9 @@ import artists from '../../assets/artists';
 import { FaInstagram } from "react-icons/fa";
 import Header from '../../components/header/Header';
 import { useEffect, useState } from 'react';
-// import EmailForm from './EmailForm';
+import { Flex, Typography } from 'antd';
 
+const {Text, Title} = Typography
 
 const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -16,7 +17,7 @@ const useIsMobile = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Cleanup event listener on component unmount
+
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
@@ -43,18 +44,18 @@ function ProfilePage() {
         <img lazy className='artistImg' width={350} height={524.65} src={`${artist.image}`} alt="artist" />
         </div>
         <div className="infoContainer">
-            <h1>{artist.name}</h1>
+            <Title>{artist.name}</Title>
             <a target='_blank' rel="noreferrer" href={`https://www.instagram.com/${artist.instagram}`}><FaInstagram className='icon'/> {artist.instagram.toUpperCase()}</a>
-                <div className="interviewContainer">
+                <Flex gap={24} vertical className="interviewContainer">
                 {artist.questions.map((question, i) =>{
                    return (
-                    <div>
-                        <h2 className='question'>{question}</h2>
-                       <p className='answer'>{artist.answers[i]}</p>
-                    </div>
+                    <Flex vertical gap={4}>
+                        <Title style={{margin:0}} level={4} className='question'>{question}</Title>
+                       <Text className='answer'>{artist.answers[i]}</Text>
+                    </Flex>
                    )
                 })}
-                </div>
+                </Flex>
         </div>
     </div>
     </div>

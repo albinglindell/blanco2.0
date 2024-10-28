@@ -2,6 +2,28 @@
     height: 50svh;
     position: relative;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    .footerInfoContainer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .footerBulletPoints, .footerBookingAndPlacementText{
+            width: 40%;
+            ul{
+                width: 100%;
+                li{
+                    color: white;
+                }
+            }
+        }
+    }
+    .mapContainer{
+        .map{
+            width:450px;
+            aspect-ratio: 1.5;
+        }
+    }
 .videoFlimmerLoop{
     position: relative;
     width: 150px;

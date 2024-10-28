@@ -1,4 +1,7 @@
+import { Card, Typography } from 'antd'
 import React from 'react'
+
+const {Text, Title} = Typography
 
 
 function AboutUs() {
@@ -7,14 +10,20 @@ function AboutUs() {
 
   return (
     <div className={`${isMobile ? 'mobile' : 'aboutContainer'}`}>
-      <div className="darkOverlay"></div>
       <div className="aboutUsInfoContainer">
-        <h1 className='aboutHeading'>About Studioblanco</h1>
-        <p className='aboutInfo'>Located in the heart of Stockholm, our tattoo studio is a haven for artistry and self-expression. Our skilled team of professional tattoo artists combines a passion for ink with a dedication to creating meaningful and unique designs. As you step into our studio, you'll be greeted by a modern and inviting atmosphere, designed to put you at ease and inspire your creativity.<br/><br/>
-        Our artists specialize in a wide range of tattoo styles, from intricate black and gray realism to vibrant watercolor masterpieces. Whether you're seeking a small and delicate design or a full sleeve that tells a story, our team is here to bring your vision to life. We take pride in our commitment to hygiene and safety, using only top-notch sterilization techniques and high-quality inks to ensure your comfort and well-being.<br/><br/>
-        At our studio, we understand that getting a tattoo is a personal journey. That's why we offer consultations to discuss your ideas, preferences, and any concerns you might have. Our goal is to collaborate with you, refining your concept and tailoring it to perfectly match your individual style.<br/><br/>
+        <Card style={{backgroundColor:"transparent", color:"white", border:"none", width:"85%"}}>
+        <Title style={{color:"white"}} className='aboutHeading'>OM OSS</Title>
+        <Text style={{color:"white"}} className='aboutInfo'>Välkommen till Studio Blanco Tattoo. En framstående tatueringsstudio belägen på Södermalm i hjärtat av Stockholm. Studion grundades 2016 av Andy Blanco och har sedan dess varit en plats synonymt med passion att skapa unika tatueringar som berättar varje kunds unika historia.
+ 
+ Varje medlem i vårt team har en stor passion för yrket med ett gemensamt mål är att skapa något nytänkande i en tidlös anda.<br/><br/>
+  
+ Som privat tatueringsstudio har vi inga fasta öppettider utan arbetar enbart efter tidsbokningar för at kunna ge varje inbokad kund den uppmärksamhet de förtjänar. För att boka en tid rekommenderar vi därför att kontakta respektive tatuerare direkt.
+  
+ Studions passion till konsten har inte gått obemärkt förbi. År 2021 dokumenterade SVT vårt arbete i dokumentärserien ”Under Nålen” som sträckte sig över sex avsnitt. Studion har även uppmärksammats genom olika mediekanaler, vunnit ett flertal priser och haft äran att välkomna diverse kändisar som besökt oss genom åren.  <br/><br/>
+  
+ Vi är enormt tacksamma till var och en av er som valt föreviga era minnen hos oss! Vi välkomnar även de nya kunderna som blir en del av vår fortsatta resa framåt.<br/><br/><br/> Mvh/ Studio Blanco Tattoo</Text>
 
-        Join us at our Stockholm tattoo studio, where artistry and passion come together to create lasting, wearable art. Whether it's your first tattoo or an addition to your existing collection, we're excited to be a part of your tattoo experience.</p>
+        </Card>
 
       </div>
     </div>

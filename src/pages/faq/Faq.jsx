@@ -1,17 +1,11 @@
 import React from "react";
 import faq from "../../assets/faq.json";
+import { Collapse } from "antd";
 function Faq() {
   return (
     <div className="faqPage">
         <div className="faqContainer">
-      {faq.map((f) => {
-        return (
-          <div className="faq">
-            <h2>{f.title}</h2>
-            <h3>{f.desc}</h3>
-          </div>
-        );
-      })}
+            <Collapse ghost className="faq" items={faq} />
         </div>
     </div>
   );

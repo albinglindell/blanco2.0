@@ -1,33 +1,30 @@
 [
-    {"title":"Are Tattoos Safe?",
-    "desc":"As long as you go to a reputable artist that is following all recommended safety precautions, getting a tattoo is perfectly safe. Make sure you're fully honest about any medical conditions."
+    {"label":"HUR GAMMAL MÅSTE JAG VARA FÖR ATT TATUERA MIG?",
+    "children":"Du måste vara minst 18 år oavsett godkännande från målsman. Vi i studion arbetar enligt rekommendationer från SRT (Sveriges registrerade tatuerare) och vid bokningstillfället vill vi att du kan legitimera dig.",
+    "key":"1"
     },
-
-    {"title":"How Much Is It Going to Cost?",
-    "desc":"When it comes to tattoos, you get what you pay for. Yes, there are plenty of people tattooing out there that will charge very little. But, look for quality, and be willing to pay for it. Never haggle over the price of a tattoo. It is disrespectful to the artist. Think of it this way: This is a piece of art you'll wear for life."
+    {"label":"HUR MYCKET KOSTAR EN TATUERING?",
+    "children":"Minimumpriset för att tatuera sig i studion är 1500 kr och det slutgiltiga priset beror på storlek, placering, detaljer samt vilken artist du har valt.",
+    "key": "2"
     },
-    {"title":"Should I Tip My Tattoo Artist?",
-    "desc":"Tipping is a really nice gesture. But, there are no real solid ground rules for tipping."
+    {"label":"GÖR DET ONT ATT TATUERA SIG?",
+    "children":"Svaret är JA, det gör ont att tatuera sig. Men det gör ont på ett positivt sätt då hjärnan frigör endorfiner i samband med smärta och kroppen älskar endorfiner! Man kan se det som en ritual man går igenom för att få något vackert att bära med sig hela livet. Så du behöver inte oroa dig, det gör ont men det är definitivt värt det!",
+    "key": "3"
     },
-    {"title":"What Should I Get? And Where?",
-    "desc":"This is all a matter of personal taste. You can get whatever you want, and whatever your artist is willing to do. You can choose a picture off the wall, or you can have them create a custom piece just for you. Your only limit is your own imagination. As far as where you should get it goes, just keep in mind what you do for work and the type of social circles you are in. You might want to consider placing your tattoo where it can be easily covered up with normal clothing."
+    {"label":"HUR LÅNG TID TAR DET FÖR EN TATUERING ATT LÄKA?",
+    "children":"Det tar två veckor för tatueringen att ”läka” men månader för huden att återställas helt.",
+    "key": "4"
     },
-    {"title":"What Is the Best Time of Year to Get a Tattoo?",
-    "desc":"Although you can get a tattoo any time of the year, your skin gets a lot more abuse during the summer with swimming, tanning, and just being exposed to the elements more. Winter time is really the best season to get a tattoo."
+    {"label":"HUR FÖRBEREDER JAG MIG PÅ BÄSTA SÄTT INNAN JAG SKA TATUERA MIG?",
+    "children":"Det är viktigt att ladda upp med mycket energi innan du tatuerar dig genom att vara utvilad, äta ordentligt och få i dig vätska. Vi rekommenderar att du tar med dig något att äta och dricka under din sittning för att kroppen ska vara i balans. Undvik att festa dagen innan då alkohol är blodförtunnande vilket gör det svårare för pigmenten att sätta sig i huden. Försök hålla dig lugn även om du känner dig nervös, vi är en professionell studio och du är i trygga händer. Fokusera istället på den fantastiska känslan du får när din nya tatuering är klar!",
+    "key":"5"
     },
-    {"title":"Is It OK to Get a Tattoo if I'm Sick?",
-    "desc":"Getting a tattoo when your immune system isn't at 100% isn't a good idea. You're going to need your strength and your white blood cells to heal your tattoo, something your body won't be able to do if it's already doing battle against virus and bacteria. Not to mention the fact that it's very inconsiderate to bring your illness into the tattoo studio and risk passing the germs onto others, particularly your artist. If you have an appointment, call and reschedule for when you're feeling well again."
+    {"label":"HUR BOKAR JAG EN TID?",
+    "children":"För att boka en tid kontaktar du den artisten du väljer direkt, se under respektive artists flik hur du får kontakt på bästa sätt!",
+    "key":"6"
     },
-    {"title":"Where Can I Find Pictures of Tattoos?",
-    "desc":"If you're getting a tattoo, especially as an expression of your individuality, why would you want a tattoo just like someone else's? Instead, find other pictures of what you're looking for and have your artist draw up a custom design for you. Example: If you are wanting a tattoo of a penguin standing on a glacier, find real photos of penguins and glaciers. If you want a tattoo of a blue rose wrapped around a cross, find pictures of real roses and crosses that you like. If the pictures don't show exactly what you want, just take them to your artist to use them as guidelines and tell them what changes you want to be made to the original pictures. A real artist will welcome the challenge of a custom piece."
-    },
-    {"title":"Is Tanning OK When You Have Tattoos?",
-    "desc":"It might be really tempting to get some rays during the summer months or hit up the tanning salon, but before you ruin your tattoo, please read about tattoos and tanning."
-    },
-    {"title":"I Just Got a New Tattoo on My Leg - Can I Shave?",
-    "desc":"It will take some time for your skin to heal enough for you to shave again and it can vary from person to person."
-    },
-    {"title":"My Friend Just Bought a Tattoo Kit and Wants to Practice on Me",
-    "desc":"Do not let them do it. Your friend could be putting both of your lives in danger by foolishly trying to learn this at home. Tell them they need to get a proper apprenticeship, and they can start practicing on you when their mentor (master) feels they are ready. "
+    {"label":"ÖPPETTIDER?",
+    "children":"Vi är en privat tatuering studio vilket innebär att studion endast har öppet för redan inbokade kunder. Se under respektive artists flik hur du får kontakt på bästa sätt!",
+    "key":"7"
     }
 ]

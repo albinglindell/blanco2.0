@@ -1,5 +1,6 @@
 .profileContainer{
     display: flex;
+    min-height: 100svh; 
     font-family: sans-serif;
     justify-content: space-evenly;
     .imageComponent{
@@ -39,6 +40,8 @@
     font-family: sans-serif;
     align-items: center;
     justify-content: space-evenly;
+    min-height: 100svh; 
+
     .imageComponent{
         img{
             max-width: 350px;

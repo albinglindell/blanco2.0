@@ -2,11 +2,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     width: 100%;
-    height: 100svh;
-    background: url("../../assets/images/aboutUsBg.jpg");
+    min-height: 100svh; 
+    background: rgb(31, 31, 31);
     background-size: cover;
     background-position: bottom;
     background-position-y: -500px;
@@ -14,34 +14,51 @@
     color: white;
     gap: 20px;
     padding: 100px;
-    .aboutHeading, .aboutInfo{
-        position: relative; 
-        z-index: 1;
+    .aboutUsInfoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        .aboutHeading, .aboutInfo{
+    
+            position: relative; 
+            font-family: sans-serif;
+            z-index: 1;
+        }
+
+        .aboutHeading{
+            font-weight: 100;
+            align-self: center;
+        }
+        .aboutInfo{
+            letter-spacing: 2px;
+            line-height: 30px;
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 100;
+            width: 80%;
+        }
     }
-    .aboutInfo{
-        font-size: 20px;
-        font-family: sans-serif;
-        font-weight: 100;
-    }
+    
     .darkOverlay{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100svh;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.781);
     }
 }
 .mobile {
     position: relative;
-    background: url("../../assets/images/aboutUsBg.jpg");
+    background-color: rgb(31, 31, 31);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100svh; 
+    min-height: 100svh; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top:10px;
     .darkOverlay {
         position: absolute;
@@ -57,11 +74,17 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        align-items: center;
+        .aboutHeading{
+            align-self: center;
+        }
         .aboutHeading,
         .aboutInfo {
+        width: 85%;
+
             position: relative;
             z-index: 1;
-            color: white;
+            color: rgb(138, 138, 138);
             font-family: sans-serif;
             font-weight:lighter;
             padding: 10px;
