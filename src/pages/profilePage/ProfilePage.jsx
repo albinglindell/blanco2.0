@@ -3,7 +3,8 @@ import artists from '../../assets/artists';
 import { FaInstagram } from "react-icons/fa";
 import Header from '../../components/header/Header';
 import { useEffect, useState } from 'react';
-import { Flex, Typography } from 'antd';
+import { Col, Flex, Image, Row, Typography } from 'antd';
+import andy from "../../assets/images/Andy.webp"
 
 const {Text, Title} = Typography
 
@@ -58,6 +59,155 @@ function ProfilePage() {
                 </Flex>
         </div>
     </div>
+    <Flex justify="center" wrap gap={16} style={{marginBottom:16}}>
+      <Row gutter={[16,16]}>
+  <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+  <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+  <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+   <Col xs={24} sm={12} md={6}>
+    <Flex justify='center'>
+    <Image
+      style={{
+        width: "100%",
+        maxWidth: "200px",
+        height: "auto",
+      }}
+      src={andy}
+    />
+    </Flex>
+  </Col>
+</Row>
+
+  </Flex>
     </div>
   )
 }

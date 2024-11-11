@@ -1,5 +1,6 @@
-import { Typography } from 'antd';
+import { Flex, Typography } from 'antd';
 import React from 'react';
+import { InstagramOutlined } from '@ant-design/icons';
 
 const{Text, Title} = Typography
 
@@ -7,15 +8,18 @@ const Footer = () => {
     return (
         <footer style={styles.footer}>
             <div style={styles.container}>
-            <div style={styles.textContainer}>
-                    <Title style={styles.textHeader}>Studio Blanco Tattoo</Title>
+            <Flex vertical gap={24} style={styles.textContainer}>
+                  <Title style={styles.textHeader}>Studio Blanco Tattoo</Title>
                     <Text style={styles.text}>
                     Studio Blanco Tattoo ligger på Ringvägen 85, mittemot Eriksdalshallen. Lättaste sättet att hitta hit är att gå från Skanstulls t-bana eller gå av vid Södra station och ta buss 4:a, 1 hållplats mot Gullmarsplan.
                     </Text>
                     <Text style={styles.text}>
                         Call us: (123) 456-7890
                     </Text>
-                </div>
+                    <Flex justify='center' style={{width:"50%" }}>
+            <InstagramOutlined style={{color:"white", fontSize:40, marginBottom:50}} />
+            </Flex>
+                </Flex>
                 <div style={styles.mapContainer}>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.3035544063578!2d18.066800106644806!3d59.30897084918797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77f2193d4365%3A0x2e793057e54d8653!2sLifestyle%20Tattoo%20S%C3%B6dermalm!5e0!3m2!1sen!2sse!4v1721636936702!5m2!1sen!2sse"
@@ -29,14 +33,14 @@ const Footer = () => {
                 </div>
              
             </div>
+            
         </footer>
     );
 };
 
 const styles = {
     footer: {
-        marginTop:24,
-        background: 'rgb(31, 31, 31)',
+        background: 'rgb(25, 25, 25)',
         color: 'white',
         padding: '20px 0',
         textAlign: 'start',

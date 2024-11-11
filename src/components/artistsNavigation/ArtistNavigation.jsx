@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import artists from "../../assets/artists"
 import { Link } from 'react-router-dom';
-console.log(artists)
+
 function ArtistNavigation() {
     const [hoveredArtistId, setHoveredArtistId] = useState(null);
 
