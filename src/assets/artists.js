@@ -75,11 +75,11 @@ import aminaSquare from "../assets/images/squares/amina.jpg"
         "instagram": "atypical.thomas",
         "questions":["Hur skulle du beskriva din tatueringsstil?", " Vad inspirerar dig?" ,"Vad är din bakgrund som tatuerare? "],
        
-        "answers":["”Jag har specialiserat mig på tatueringar i gråskala! Jag strävar efter ett tidlöst uttryck med en bra balans mellan detaljrikedom och tydliga kompositioner. Både större och mindre projekt är kul!”",
+        "answers":["”Min stil är black & gray men kommer ifrån gamla skolan där man gjorde allt som trillade in på studion, så jag kan fortfarande uppskatta att göra andra stilar lite då och då.”",
 
-      "”Främst inspireras jag av att lyssna på kundens tankar och idéer som utgångspunkt. Eftersom varje samarbete blir unikt, strävar jag efter att skapa en design som speglar just detta. Av erfarenhet blir det oftast som bäst när det finns öppenhet och tillit till att våga skapa något eget.  Utöver min passion för tatueringskonsten hämtar jag inspiration från en mängd olika källor, inklusive klassisk och modern konst, musik, film, litteratur och naturen.”",
+      "”Kanske låter klyschigt men min största inspiration är nog att se hur folk lyser när dom går och kollar i spegeln, att få göra nån mer nöjd med sig själv är nått jävligt speciellt.”",
         
-       "” Jag började tatuera 2009 och sedan dess har det alltid varit mitt största intresse. Genom tatuerandet har jag fått möjlighet att resa runt i världen, träffa många olika människor och få ägna mig åt något jag verkligen älskar, vilket jag är tacksam för. År 2016 öppnade jag Studio Blanco Tattoo”"]
+       "”Jag började tatuera som 17 åring”"]
     },
     {
         "name":"AMINA SELLING",
